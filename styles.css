@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.post {
+    margin: 10px;
+    margin-top: 30px;
+    padding: 2px;
+    padding-top: 4px;
+    width: 300px;
+    background-color: white;
+}
+
+.postheader {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    align-items: center;
+}
+
+.postlogo {
+    display: flex;
+    width: 50px;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    width: 70px;
+    height: 50px;
+}
+
+.trespuntos {
+    display: flex;
+    justify-content: flex-end;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover
+}
+
+.name {
+    width: 10px;
+}
+
+.bookmark {
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    
+    
+
+
+}
+
+.logos {
+    display: flex;
+    height: 15px;
+    width: 250px;
+    align-items: start;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
