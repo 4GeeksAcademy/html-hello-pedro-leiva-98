@@ -31,6 +31,8 @@ body {
     margin: 0px;
     width: 70px;
     height: 50px;
+    font-size: 11px;
+    justify-content: center;
 }
 
 .trespuntos {
@@ -48,21 +50,24 @@ img {
     width: 10px;
 }
 
-.bookmark {
+/* .bookmark {
     display: flex;
     justify-content: flex-end;
-    align-content: center;
+    align-content:center;
     
-    
 
 
-}
+} */
 
-.logos {
+ .logos {
     display: flex;
     height: 15px;
-    width: 250px;
     align-items: start;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-between; 
+} 
+.footericons{
+    display: flex;
+    justify-content: space-between;
 }
